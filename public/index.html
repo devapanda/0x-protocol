@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+      	<?php
+	header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
+	header('X-Frame-Options: SAMEORIGIN');
+	header('X-Content-Type-Options: nosniff');
+	header("Referrer-Policy: no-referrer");
+	?>
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicons/favicon-72.png" />
+    <!--[if IE]>
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicons/favicon.ico"/>
+    <![endif]-->
+    <link rel="apple-touch-icon-precomposed" href="%PUBLIC_URL%/favicons/favicon-152.png"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF"/>
+    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/favicons/favicon-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="%PUBLIC_URL%/favicons/favicon-152.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="%PUBLIC_URL%/favicons/favicon-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="%PUBLIC_URL%/favicons/favicon-120.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="%PUBLIC_URL%/favicons/favicon-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="%PUBLIC_URL%/favicons/favicon-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="%PUBLIC_URL%/favicons/favicon-57.png"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+      <!-- Primary Meta Tags -->
+    <title>SwapDex Decentralized Exchange</title>
+    <meta name="title" content="Belifex Decentralized Exchange — ERC20 trading platform">
+    <meta name="description" content="Belifex Decentralized Exchange is an ERC20 trading platform. Easy onboarding for new users and no KYC required.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://trade.dex-belifex.com/">
+    <meta property="og:title" content="Belifex Decentralized Exchange — ERC20 trading platform">
+    <meta property="og:description" content="Belifex Decentralized Exchange is an ERC20 trading platform. Easy onboarding for new users and no KYC required.">
+    <meta property="og:image" content="https://trade.dex-belifex.com/public/assets/belifex_dex.png">
+    <meta property="fb:app_id" content="2358774107692244" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://trade.dex-belifex.com/">
+    <meta property="twitter:title" content="Belifex Decentralized Exchange — ERC20 trading platform">
+    <meta property="twitter:description" content="Belifex Decentralized Exchange is an ERC20 trading platform. Easy onboarding for new users and no KYC required.">
+    <meta property="twitter:image" content="https://trade.dex-belifex.com/public/assets/belifex_dex.png">
+
+    <meta name="keywords" content="dex,decentralized exchange,erc20,cryptocurrency trading,0xproject,ethereum,altcoins,lending,funding,margin,loans">
+
+  <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8425903251487932",
+              enable_page_level_ads: true
+        });
+    </script>  -->
+
+
+    <style type="text/css">
+   
+ 
+
+      /*!
+   * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+   * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+   * Licensed under MIT
+   */
+      .la-ball-square-clockwise-spin,
+      .la-ball-square-clockwise-spin>div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 12px;
+        height: 12px;
+        margin-top: -6px;
+        margin-left: -6px;
+        border-radius: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+  
+      .la-ball-square-clockwise-spin {
+        display: block;
+        font-size: 0;
+        color: #fff;
+      }
+  
+      .la-ball-square-clockwise-spin.la-dark {
+        color: #333;
+      }
+  
+      .la-ball-square-clockwise-spin>div {
+        display: inline-block;
+        float: none;
+        background-color: currentColor;
+        border: 0 solid currentColor;
+      }
+  
+      .la-ball-square-clockwise-spin {
+        width: 26px;
+        height: 26px;
+      }
+  
+      .la-ball-square-clockwise-spin>div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 12px;
+        height: 12px;
+        margin-top: -6px;
+        margin-left: -6px;
+        border-radius: 100%;
+        -webkit-animation: ball-square-clockwise-spin 1s infinite ease-in-out;
+        -moz-animation: ball-square-clockwise-spin 1s infinite ease-in-out;
+        -o-animation: ball-square-clockwise-spin 1s infinite ease-in-out;
+        animation: ball-square-clockwise-spin 1s infinite ease-in-out;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(1) {
+        top: 0;
+        left: 0;
+        -webkit-animation-delay: -.875s;
+        -moz-animation-delay: -.875s;
+        -o-animation-delay: -.875s;
+        animation-delay: -.875s;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(2) {
+        top: 0;
+        left: 50%;
+        -webkit-animation-delay: -.75s;
+        -moz-animation-delay: -.75s;
+        -o-animation-delay: -.75s;
+        animation-delay: -.75s;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(3) {
+        top: 0;
+        left: 100%;
+        -webkit-animation-delay: -.625s;
+        -moz-animation-delay: -.625s;
+        -o-animation-delay: -.625s;
+        animation-delay: -.625s;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(4) {
+        top: 50%;
+        left: 100%;
+        -webkit-animation-delay: -.5s;
+        -moz-animation-delay: -.5s;
+        -o-animation-delay: -.5s;
+        animation-delay: -.5s;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(5) {
+        top: 100%;
+        left: 100%;
+        -webkit-animation-delay: -.375s;
+        -moz-animation-delay: -.375s;
+        -o-animation-delay: -.375s;
+        animation-delay: -.375s;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(6) {
+        top: 100%;
+        left: 50%;
+        -webkit-animation-delay: -.25s;
+        -moz-animation-delay: -.25s;
+        -o-animation-delay: -.25s;
+        animation-delay: -.25s;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(7) {
+        top: 100%;
+        left: 0;
+        -webkit-animation-delay: -.125s;
+        -moz-animation-delay: -.125s;
+        -o-animation-delay: -.125s;
+        animation-delay: -.125s;
+      }
+  
+      .la-ball-square-clockwise-spin>div:nth-child(8) {
+        top: 50%;
+        left: 0;
+        -webkit-animation-delay: 0s;
+        -moz-animation-delay: 0s;
+        -o-animation-delay: 0s;
+        animation-delay: 0s;
+      }
+  
+      .la-ball-square-clockwise-spin.la-sm {
+        width: 12px;
+        height: 12px;
+      }
+  
+      .la-ball-square-clockwise-spin.la-sm>div {
+        width: 6px;
+        height: 6px;
+        margin-top: -3px;
+        margin-left: -3px;
+      }
+  
+      .la-ball-square-clockwise-spin.la-2x {
+        width: 52px;
+        height: 52px;
+      }
+  
+      .la-ball-square-clockwise-spin.la-2x>div {
+        width: 24px;
+        height: 24px;
+        margin-top: -12px;
+        margin-left: -12px;
+      }
+  
+      .la-ball-square-clockwise-spin.la-3x {
+        width: 78px;
+        height: 78px;
+      }
+  
+      .la-ball-square-clockwise-spin.la-3x>div {
+        width: 36px;
+        height: 36px;
+        margin-top: -18px;
+        margin-left: -18px;
+      }
+  
+      /*
+   * Animation
+   */
+      @-webkit-keyframes ball-square-clockwise-spin {
+  
+        0%,
+        40%,
+        100% {
+          -webkit-transform: scale(.4);
+          transform: scale(.4);
+        }
+  
+        70% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+  
+      @-moz-keyframes ball-square-clockwise-spin {
+  
+        0%,
+        40%,
+        100% {
+          -moz-transform: scale(.4);
+          transform: scale(.4);
+        }
+  
+        70% {
+          -moz-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+  
+      @-o-keyframes ball-square-clockwise-spin {
+  
+        0%,
+        40%,
+        100% {
+          -o-transform: scale(.4);
+          transform: scale(.4);
+        }
+  
+        70% {
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+  
+      @keyframes ball-square-clockwise-spin {
+  
+        0%,
+        40%,
+        100% {
+          -webkit-transform: scale(.4);
+          -moz-transform: scale(.4);
+          -o-transform: scale(.4);
+          transform: scale(.4);
+        }
+  
+        70% {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+  
+      .black-overlay {
+        position: fixed;
+        background-color: #270c3d;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999 !important;
+      }
+  
+      .black-overlay>div {
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        position: absolute;
+        transform: translate(-50%, -50%);
+      }
+      .loading-text {
+    top: 60% !important;
+    z-index: 99999 !important;
+  }
+    </style>
+
+
+
+
+
+  </head>
+  <body>
+    
+
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="black-overlay">
+            <div style="color: #fff" class="la-ball-square-clockwise-spin la-2x">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              
+            </div>
+            <div class="loading-text">
+                <p style="color: white"><strong>SwapDex Decentralized Exchange is Loading...</strong> </p>
+            </div>
+           
+          </div>
+    </div>
+   
+<style>
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: transparent;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        color: white;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        border-bottom: 2px solid white;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: none;
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+    }
+    .tablinks{
+        width: 100%;
+        border: 0;
+    }
+    #widgetBinance{}
+    #widgetBinance .binance-fiat-widget{
+        margin: 0 auto;
+    }
+
+    /* Fade in tabs */
+    @-webkit-keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    .full-height{height: 100%;}
+    .full-width{width: 100%;}
+    .bm_payment_dialog{ margin: 0 auto; top: 2%;  position: relative;  border: 1px solid rgb(0, 0, 0); background: rgb(74, 28, 77); overflow: hidden; overflow-y: auto; border-radius: 4px; outline: none; padding: 16px; display: flex; flex-direction: column; flex-grow: 0;min-height: 95%; width: 550px;}
+    @media screen AND (max-width: 550px){
+        .bm_payment_dialog{width: 100%;}
+    }
+</style>
+<script src="https://public.bnbstatic.com/static/js/ocbs/binance-fiat-widget.js"></script>
+<div class="full-width center binanceRoot" style="display: none; position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.1);z-index: 99999;">
+    <div class="bm_payment_dialog">
+        <div style="display: flex;    -webkit-box-pack: end;    -webkit-justify-content: flex-end;    -ms-flex-pack: end;    justify-content: flex-end;" class="full-width closeRoot" onclick="function f() {
+          document.getElementsByClassName('sc-htpNat')[0].click();
+        } f()"></div>
+        <div class="full-width full-height ">
+            <div class="full-height full-width" style="position: relative;">
+                <div class="tab" style="display: flex; height: 50px;">
+                    <button class="tablinks" onclick="openTab(event, 'Binance')" id="defaultOpen">Binance</button>
+                    <button class="tablinks" onclick="openTab(event, 'MoonPay')">MoonPay</button>
+                </div>
+
+                <div id="Binance" class="tabcontent center" style="top: 50px;">
+                    <div class="full-width full-height" style="display: table;">
+                        <div style="display: table-cell; vertical-align: middle;">
+                            <div id="widgetBinance" class="center"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="MoonPay" class="tabcontent" style="top: 50px;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var t = document.querySelector('#widgetBinance');
+    window.binanceFiatWidget.Widget(t, {
+        locale: 'en',
+        width: '100%',
+        urlParmas: {
+            ref: '35652020'
+        }
+    });
+</script>
+
+<script>
+    let fr=true;
+    let counter=0;
+    let class_name = '';
+    function RunTimer() {
+        let elements=document.getElementsByClassName('ReactModalPortal');
+        for(let i=0;i<elements.length;i++)
+            if(elements[i].childElementCount > 0) {
+                let el_root = elements[i];
+
+                let defined_index = 0;
+                if (el_root.getElementsByClassName('sc-eXNvrr')[0] !== undefined) {
+                    defined_index = 1;
+                    class_name = 'sc-eXNvrr';
+                } else if (el_root.getElementsByClassName('sc-itybZL')[0] !== undefined) {
+                    defined_index = 2;
+                    class_name = 'sc-itybZL';
+                }else
+                    continue;
+
+                if (document.getElementsByClassName('binanceRoot')[0].style.display === 'none') {
+                    document.getElementsByClassName('binanceRoot')[0].style.display = 'block';
+                    document.getElementById('defaultOpen').click();
+
+                    if (fr) {
+                        let page2 = el_root.getElementsByClassName(class_name)[0].innerHTML;
+                        document.getElementsByClassName('closeRoot')[0].innerHTML = el_root.getElementsByClassName('sc-htpNat')[0].innerHTML;
+                        document.getElementById('MoonPay').innerHTML = page2;
+                        document.getElementsByClassName('closeRoot')[0].style.cursor = 'pointer';
+                        try {
+                            let title_class = 'sc-cpmKsF';
+                            if (defined_index === 2) {
+                                title_class = 'sc-eMigcr';
+                                el_root.getElementsByClassName(title_class)[0].style.display = 'none';
+                                el_root.getElementsByClassName('sc-bHwgHz')[0].style.display = 'none';
+                            } else {
+                                el_root.getElementsByClassName(title_class)[0].style.display = 'none';
+                                el_root.getElementsByClassName('sc-eMigcr')[0].style.display = 'none';
+                            }
+
+                        } catch (e) {
+
+                        }
+
+                        document.getElementsByClassName('binance-fiat-widget')[0].style.boxShadow = 'none';
+                        document.getElementsByClassName('binance-fiat-widget')[0].getElementsByTagName('div')[0].style.color = '#fff';
+                    }
+
+                    fr = false;
+                } else {
+                    counter++;
+                    if (counter === 3)
+                        counter = 0;
+                    if (counter === 0) {
+                        let page2r = el_root.getElementsByClassName(class_name)[0].innerHTML;
+                        let moonpay = document.getElementById('MoonPay').innerHTML;
+                        if (page2r.trim() !== moonpay.trim())
+                            document.getElementById('MoonPay').innerHTML = page2r;
+                    }
+                }
+            }
+
+        if (class_name.trim() !== '' && document.getElementsByClassName(class_name)[0] === undefined) {
+            if (document.getElementsByClassName('binanceRoot')[0].style.display === 'block')
+                document.getElementsByClassName('binanceRoot')[0].style.display = 'none';
+        }
+        setTimeout(function () {
+            RunTimer();
+        }, 200);
+    }
+</script>
+<script>
+    function openTab(evt, Name) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(Name).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+<script>
+    window.onload=function () {
+        RunTimer();
+    };
+</script>
+
+  </body>
+   
+</html>

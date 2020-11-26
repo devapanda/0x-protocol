@@ -1,0 +1,460 @@
+{
+    "general": {
+        "title": "SwapDex Decentralized Exchange",
+        "icon": "assets/icons/sdx.svg"
+    },
+    "tokens": [
+        {
+            "decimals": 18,
+            "symbol": "vsf",
+            "name": "VeriSafe",
+            "primaryColor": "#081E6E",
+            "icon": "assets/icons/vsf.svg",
+            "addresses": {
+                "1": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c"
+            },
+            "id": "verisafe",
+            "displayDecimals": 4
+        },
+        {
+            "decimals": 8,
+            "symbol": "befx",
+            "name": "Belifex",
+            "primaryColor": "#2C80BE",
+            "icon": "https://belifex.com/assets/befx.png",
+            "addresses": {
+                "1": "0xB91C2a2b953D72f3EF890490669a0A41B0ADD5f7"
+            },
+            "displayDecimals": 4
+        },
+        {
+            "symbol": "weth",
+            "name": "Wrapped Ether",
+            "primaryColor": "#3333ff",
+            "icon": "assets/icons/weth.svg",
+            "addresses": {
+                "1": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "3": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "4": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "42": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+                "50": "0x0b1ba0af832d7c05fd64161e0db78e85978e8082"
+            },
+            "decimals": 18,
+            "displayDecimals": 4,
+            "id": "ethereum"
+        },
+        {
+            "symbol": "zrx",
+            "name": "0x Protocol Token",
+            "primaryColor": "#333333",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+                "4": "0x8080c7e4b81ecf23aa6f877cfbfd9b0c228c6ffa",
+                "5": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
+                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa",
+                "50": "0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c"
+            },
+            "decimals": 18,
+            "displayDecimals": 4
+        },
+        {
+            "decimals": 18,
+            "symbol": "dai",
+            "name": "Dai",
+            "icon": "https://belifex.com/assets/dai.png",
+            "primaryColor": "#F4B731",
+            "addresses": {
+                "1": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "3": "0xfc8862446cd3e4a2e7167e7d97df738407fead07",
+                "4": "0x6f2d6ff85efca691aad23d549771160a12f0a0fc",
+                "42": "0xc4375b7de8af5a38a93548eb8453a498222c4ff2",
+                "50": "0x34d402f14d58e001d8efbe6585051bf9706aa064"
+            }
+        },
+        {
+            "decimals": 18,
+            "symbol": "mkr",
+            "name": "Maker",
+            "primaryColor": "#1AAB9B",
+            "icon": "https://belifex.com/assets/mkr.png",
+            "addresses": {
+                "1": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+                "3": "0x06732516acd125b6e83c127752ed5f027e1b276e",
+                "4": "0xb763e26cd6dd09d16f52dc3c60ebb77e46b03290",
+                "42": "0x7B6B10CAa9E8E9552bA72638eA5b47c25afea1f3",
+                "50": "0x34d402f14d58e001d8efbe6585051bf9706aa064"
+            }
+        },
+        {
+            "decimals": 9,
+            "symbol": "dgx",
+            "name": "DigixDao",
+            "icon": "assets/icons/dgx.svg",
+            "primaryColor": "#E1AA3E",
+            "addresses": {
+                "1": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
+                "3": "0xc4895a5aafa2708d6bc1294e20ec839aad156b1d",
+                "4": "0xc40a46ca4bc8e6057ed571e39cf400f3f935e4d5",
+                "42": "0xA4f468c9c692eb6B4b8b06270dAe7A2CfeedcDe9",
+                "50": "0xcdb594a32b1cc3479d8746279712c39d18a07fc0"
+            }
+        },
+	{
+            "decimals": 6,
+            "symbol": "usdc",
+            "name": "USD-Coin",
+            "primaryColor": "#2875FA",
+            "icon": "https://belifex.com/assets/usdc.png",
+            "addresses": {
+                "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            }
+        },
+	{
+            "decimals": 6,
+            "symbol": "usdt",
+            "name": "Tether USD",
+            "primaryColor": "#26A17B",
+            "icon": "https://belifex.com/assets/usdt.png",
+            "addresses": {
+                "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            }
+        },
+	{
+            "decimals": 18,
+            "symbol": "bat",
+            "name": "Basic Attention Token",
+            "primaryColor": "#EBE8E8",
+            "icon": "https://belifex.com/assets/bat.png",
+            "addresses": {
+                "1": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+            }
+        },
+
+	{
+            "decimals": 18,
+            "symbol": "muxe",
+            "name": "MUXE",
+            "primaryColor": "#EBE8E8",
+            "icon": "https://belifex.com/assets/muxe.png",
+            "addresses": {
+                "1": "0x515669d308f887fd83a471c7764f5d084886d34d",
+            }
+        },
+	{
+            "decimals": 18,
+            "symbol": "link",
+            "name": "Chain.Link",
+            "primaryColor": "#EBE8E8",
+            "icon": "https://belifex.com/assets/link.png",
+            "addresses": {
+                "1": "0x514910771af9ca656af840dff83e8264ecf986ca",
+            }
+        },
+	{
+            "decimals": 18,
+            "symbol": "clo",
+            "name": "Cryptlo",
+            "primaryColor": "#EBE8E8",
+            "icon": "https://belifex.com/assets/clo.png",
+            "addresses": {
+                "1": "0xe4707dac5f8a942f98b2181129346ef37d075a69",
+            }
+        },
+        {
+            "decimals": 18,
+            "symbol": "dca",
+            "name": "Decentralize Currency Assets",
+	    "primaryColor": "#C19C55",
+            "icon": "https://belifex.com/assets/dca.png",
+            "primaryColor": "#C19C55",
+            "addresses": {
+                "1": "0x18aa7c90d3ae4c5bb219d0a2813f441704084625",
+            }		
+        },
+        {
+            "decimals": 18,
+            "symbol": "clog",
+            "name": "CLO Gold",
+	    "primaryColor": "#2A203C",
+            "icon": "https://belifex.com/assets/clog.png",
+            "primaryColor": "#2A203C",
+            "addresses": {
+                "1": "0xba36676acd9709ac84a2864f05c0a3f820aa223e",
+            }
+        },
+	{
+            "decimals": 2,
+            "symbol": "idrt",
+            "name": "Rupiah Token",
+            "primaryColor": "#cd453d",
+            "icon": "https://belifex.com/assets/RupiahToken.png",
+            "addresses": {
+                "1": "0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A",
+            }
+        },
+	{
+            "decimals": 0,
+            "symbol": "htx",
+            "name": "HashTrust",
+            "primaryColor": "#EBE8E8",
+            "icon": "http://belifex.com/assets/htx.png",
+            "addresses": {
+                "1": "0xedbcc06b603ea1f512720a4073a62cc4fdefcb86",
+            }
+        },
+	{
+            "decimals": 8,
+            "symbol": "0xbtc",
+            "name": "0xBitcoin Token",
+            "primaryColor": "#2A203C",
+            "icon": "https://belifex.com/assets/oxbtc.png",
+            "addresses": {
+                "1": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
+            }
+        }
+    ],
+    "pairs": [
+ {
+            "base": "usdc",
+            "quote": "weth"
+        },
+        {
+            "base": "usdt",
+            "quote": "weth"
+        },
+        {
+            "base": "vsf",
+            "quote": "weth"
+        },
+        {
+            "base": "befx",
+            "quote": "weth"
+        },
+        {
+            "base": "zrx",
+            "quote": "weth"
+        },
+        {
+            "base": "dai",
+            "quote": "weth"
+        },
+        {
+            "base": "mkr",
+            "quote": "weth"
+        },
+        {
+            "base": "bat",
+            "quote": "weth"
+        },
+        {
+            "base": "muxe",
+            "quote": "weth"
+        },
+        {
+            "base": "link",
+            "quote": "weth"
+        },
+	{
+            "base": "idrt",
+            "quote": "weth"
+        },
+        {
+            "base": "clo",
+            "quote": "weth"
+        },        
+	{
+            "base": "clog",
+            "quote": "weth"
+        },
+        {
+            "base": "htx",
+            "quote": "weth"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "weth"
+        },
+        {
+            "base": "dca",
+            "quote": "weth"
+        },
+        {
+            "base": "vsf",
+            "quote": "befx"
+        },
+        {
+            "base": "zrx",
+            "quote": "befx"
+        },
+        {
+            "base": "dai",
+            "quote": "befx"
+        },
+        {
+            "base": "mkr",
+            "quote": "befx"
+        },
+        {
+            "base": "bat",
+            "quote": "befx"
+        },
+        {
+            "base": "muxe",
+            "quote": "befx"
+        },
+        {
+            "base": "link",
+            "quote": "befx"
+        },
+	{
+            "base": "idrt",
+            "quote": "befx"
+        },
+        {
+            "base": "clo",
+            "quote": "befx"
+        },
+        {
+            "base": "clog",
+            "quote": "befx"
+        },
+        {
+            "base": "htx",
+            "quote": "befx"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "befx"
+        },
+        {
+            "base": "dca",
+            "quote": "befx"
+        },
+        {
+            "base": "vsf",
+            "quote": "usdc"
+        },
+        {
+            "base": "zrx",
+            "quote": "usdc"
+        },
+        {
+            "base": "dai",
+            "quote": "usdc"
+        },
+        {
+            "base": "mkr",
+            "quote": "usdc"
+        },
+        {
+            "base": "befx",
+            "quote": "usdc"
+        },
+        {
+            "base": "bat",
+            "quote": "usdc"
+        },
+        {
+            "base": "muxe",
+            "quote": "usdc"
+        },
+        {
+            "base": "link",
+            "quote": "usdc"
+        },
+	{
+            "base": "idrt",
+            "quote": "usdc"
+        },
+        {
+            "base": "clo",
+            "quote": "usdc"
+        },
+        {
+            "base": "clog",
+            "quote": "usdc"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "usdc"
+        },
+        {
+            "base": "dca",
+            "quote": "usdc"
+        },
+        {
+            "base": "vsf",
+            "quote": "usdt"
+        },
+        {
+            "base": "befx",
+            "quote": "usdt"
+        },
+        {
+            "base": "zrx",
+            "quote": "usdt"
+        },
+        {
+            "base": "dai",
+            "quote": "usdt"
+        },
+        {
+            "base": "mkr",
+            "quote": "usdt"
+        },
+        {
+            "base": "bat",
+            "quote": "usdt"
+        },
+        {
+            "base": "muxe",
+            "quote": "usdt"
+        },
+        {
+            "base": "link",
+            "quote": "usdt"
+        },
+	{
+            "base": "idrt",
+            "quote": "usdt"
+        },
+        {
+            "base": "clo",
+            "quote": "usdt"
+        },
+        {
+            "base": "clog",
+            "quote": "usdt"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "usdt"
+        },
+        {
+            "base": "dca",
+            "quote": "usdt"
+        }
+
+    ],
+    "marketFilters": [
+        {
+            "text": "BEFX",
+            "value": "befx"
+        },
+        {
+            "text": "ETH",
+            "value": "weth"
+        },
+        {
+            "text": "USDT",
+            "value": "usdt"
+        },
+        {
+            "text": "USDC",
+            "value": "usdc"
+        }
+    ]
+}
+
+
